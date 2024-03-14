@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: awesome
+  title: awesome
+  description: foo bar
+  namespace: to-be-defined
+spec:
+  type: service
+  lifecycle: experimental
+  owner: stone/to-be-defined
